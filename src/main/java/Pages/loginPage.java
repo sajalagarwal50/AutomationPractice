@@ -1,6 +1,7 @@
 package Pages;
 
 import Interfaces.Login;
+import org.json.JSONObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -70,6 +71,8 @@ public class loginPage extends BasePage implements Login  {
 
     public void clickOnLogin(){
         clickOnElement(loginButton);
+
+
     }
 
 }

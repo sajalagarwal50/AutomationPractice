@@ -15,7 +15,7 @@ public class configProvider  {
 
     static Config c= ConfigFactory.parseFile(configFile);
 
-     static Config conf = ConfigFactory.load(c);
+    static Config conf = ConfigFactory.load(c);
 
     public static Config config(){
         return conf;
